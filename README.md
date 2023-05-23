@@ -1,5 +1,5 @@
 # Mastermind
-Mastermind is Exiled Plugin that intruduces the new gamemode with the same name.
+Mastermind is Exiled Plugin that intruduces the new gamemode by the same name.
 The gamemode is an attempt to replicate SCP:CB original premise of SCP-079 being the main reason behind the breach.
 
 # Changes
