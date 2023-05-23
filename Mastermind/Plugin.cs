@@ -13,7 +13,7 @@ namespace Plugin
     {
 
         public override string Author => "Ferrasick";
-        public override Version Version => new Version(0, 0, 7);
+        public override Version Version => new Version(0, 0, 8);
         public override Version RequiredExiledVersion => new Version(7, 0, 0, 0);
 
         public static Plugin plugin;
