@@ -7,7 +7,7 @@ The gamemode is an attempt to replicate SCP:CB original premise of SCP-079 being
 - Other initial scp-assigned player(s) are put in spectators.
 - SCP-079 may now release desired SCP as ally by opening their containment chamber (in case of 939, one of the doors leading to it's room as the door in chamber itself is not usable).
 - Releasing an SCP requires a set amount of energy, listed below.
-- If player playing 079 fails to release his first ally in 2 minutes, one usual SCPs is released automatically.
+- If player playing 079 fails to release his first ally in 2 minutes, one lower-energy SCPs is released automatically.
 - Only two SCPs can be released, with cooldown of 10 minutes in between.
 
 |SCP|Energy|
