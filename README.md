@@ -12,7 +12,7 @@ If player playing 079 fails to release his first ally in 2 minutes, one usual SC
 Only two SCPs can be released, with cooldown of 10 minutes in between.
 
 |SCP|Energy|
-|-----------|---------|-----------|
+|-----------|---------|
 |049|80|
 |173|80|
 |939|80|
