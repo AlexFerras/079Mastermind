@@ -34,6 +34,8 @@ namespace Plugin
         };
 
         public Player master = null;
+
+        public TimeSpan cooldownTime = TimeSpan.Zero;
     }
     public class EventHandlers
     {
@@ -182,6 +184,12 @@ namespace Plugin
             if (scpCount >= 2)
             {
                 //Log.Info($"{args.Player.DisplayNickname} opening door {args.Door.Name} passed: Already called two SCPs");
+                args.IsAllowed = false;
+                return;
+            }
+
+            if (scpCount >= 1 && Round.ElapsedTime.TotalMinutes - data.cooldownTime.TotalMinutes < 10.0)
+            {
                 args.IsAllowed = false;
                 return;
             }
