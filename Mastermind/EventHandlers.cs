@@ -240,6 +240,7 @@ namespace Plugin
         }
         void SpawnSCP(Player player, RoleTypeId role)
         {
+            data.cooldownTime = Round.ElapsedTime;
             data.availableScps[role] = false;
             Timing.CallDelayed(2, () => Map.PlayAmbientSound());
             Timing.CallDelayed(3, () => player.RoleManager.ServerSetRole(role, RoleChangeReason.RoundStart));
